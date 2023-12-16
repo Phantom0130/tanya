@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: url('Img/9.jpg') center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+
+
+header, .image-section, .text-container, footer {
+    width: 80%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 7px;
+    color: #ff6363;
+}
+
+header p {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.image-section {
+    text-align: center;
+    padding: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-container {
+    margin: 10px;
+    flex: 1 0 200px;
+}
+
+.image-section img {
+    border-radius: 50%;
+    border: 8px solid #ff0000;
+    box-shadow: 0 0 20px rgba(255, 99, 99, 0.5);
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
+}
+
+.text-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text-container h2 {
+    font-size: 50px;
+    color: #fff;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.button-container a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.button-container img {
+    width: 50px; /* Измените размер кнопок по вашему желанию */
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.button-container img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1px 0;
+    background-color: #ff0000;
+}
+
+.spacer {
+    background-color: #1f1f1f;
+    height: 20px;
+    margin: 10px 0;
+}
